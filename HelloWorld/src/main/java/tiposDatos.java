@@ -53,5 +53,18 @@ public class tiposDatos {
         } else {
             System.out.println("El valor es falso");
         }
+        
+        /// **** Conversion de datos primitivos **** ///
+        int edad = Integer.parseInt("20");
+        System.out.println("String to integer: " + edad); /// soutv + tab    
+        
+        double valorPi = Double.parseDouble("3.14");
+        System.out.println("valorPi = " + valorPi);
+        
+        boolean valorBooleano = Boolean.parseBoolean("True");
+        System.out.println("valorBooleano = " + valorBooleano);
+        
+        char stringToChar = "hola".charAt(0);  //Se indica el indice que queremos de la cadena
+        System.out.println("stringToChar = " + stringToChar);
     }
 }
