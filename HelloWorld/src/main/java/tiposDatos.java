@@ -18,7 +18,7 @@ public class tiposDatos {
         System.out.println("NumeroBinario: " + numeroBinario + "\n");
         
         
-        //***** Tipos Flotante, Double, Binario, Hexadecimal *****//
+        //***** Tipos Flotante, Double *****//
         float floatVar = 1000;  ///convertir literal double a float ---> 1000.10F
         System.out.println("Valor flotante: " + floatVar);
         System.out.println("Bits en el tipo Float: " + Float.SIZE);
