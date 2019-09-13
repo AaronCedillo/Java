@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 /*
  * @author AdrianCedillo
  */
@@ -66,5 +69,12 @@ public class tiposDatos {
         
         char stringToChar = "hola".charAt(0);  //Se indica el indice que queremos de la cadena
         System.out.println("stringToChar = " + stringToChar);
+        
+        //var scanner = new Scanner(System.in);
+        //int edadScanner = Integer.parseInt(scanner.nextLine());
+        //System.out.println("edadScanner = " + edadScanner); 
+        
+        String edadTexto = String.valueOf(25);
+        System.out.println("edadTexto = " + edadTexto);
     }
 }
