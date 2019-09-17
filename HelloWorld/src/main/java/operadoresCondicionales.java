@@ -30,8 +30,12 @@ public class operadoresCondicionales {
         // Operador Ternario (Simplificacion de la condicion if)
         var numero = scanner.nextLine();
         int numeroInt = Integer.parseInt(numero);
+        int numeroParImpar = 3;
 
         var resultado = (numeroInt % 2 == 0) ? "Es numero par" : "Es numero impar";
         System.out.println("resultado = " + resultado);
+
+        var numeroPar = (numeroParImpar % 2 == 0) ? true : false;
+        System.out.println("numeroPar = " + numeroPar);
     }
 }
