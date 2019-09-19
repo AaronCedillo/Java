@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /*
- * @author Kanan
+ * @author AaronCedillo
  */
 public class tarea6 {
     public static void main(String[] args) {
