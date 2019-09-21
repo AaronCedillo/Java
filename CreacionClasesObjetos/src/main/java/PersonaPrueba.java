@@ -1,5 +1,5 @@
 /*
- * @author Kanan
+ * @author AaronCedillo
  */
 public class PersonaPrueba {
     public static void main(String[] args) {
