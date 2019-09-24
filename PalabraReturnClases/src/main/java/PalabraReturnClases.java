@@ -19,7 +19,7 @@ class Suma {
     int b;
     
     Suma(int a, int b) {
-        this.a = a;
+        this.a = a; // Se asignan los valores que se reciben a los atributos de esta clase
         this.b = b;
     }
 }
