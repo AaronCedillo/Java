@@ -1,5 +1,5 @@
 /*
- * @author Kanan
+ * @author AaronCedillo
  */
 public class EjemploEstatico {
     public static void main(String[] args) {
